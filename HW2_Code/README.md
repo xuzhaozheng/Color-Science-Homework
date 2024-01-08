@@ -6,7 +6,7 @@
 ## 链接
 演示视频可以在这里下载：
 - [Google Drive](https://drive.google.com/drive/folders/1xBB9bUJbHAlI4Q30muY3At_cTiOXcgRR?usp=sharing)
-- [百度云](链接：https://pan.baidu.com/s/1YrqUwdBA0EYmushPWNZnxA?pwd=msnf)
+- [百度云](https://pan.baidu.com/s/1YrqUwdBA0EYmushPWNZnxA?pwd=msnf)
 
 ## 版本对比
 - Prores 4444版本色彩编码为P3 RGB，效果最为准确。
