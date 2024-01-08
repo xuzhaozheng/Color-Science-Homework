@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NonRealTimeMeta xmlns="urn:schemas-professionalDisc:nonRealTimeMeta:ver.2.00" xmlns:lib="urn:schemas-professionalDisc:lib:ver.2.00" lastUpdate="2023-06-15T11:32:06+08:00">
+	<TargetMaterial umidRef="060A2B340101010501010D431300000071FAB025100106DE08004602026DF110"/>
+	<Duration value="120"/>
+	<LtcChangeTable tcFps="24" halfStep="false">
+		<LtcChange frameCount="0" value="03112700" status="increment"/>
+		<LtcChange frameCount="119" value="02162700" status="end"/>
+	</LtcChangeTable>
+	<CreationDate value="2023-06-15T11:32:00+08:00"/>
+	<TypicalUbit value="0000000000000000"/>
+	<KeyFrame frameCount="0"/>
+	<BodyUmidBasicChangeTable>
+		<BodyUmidBasicChange frameCount="0" value="060A2B340101010501010D433300000071FAB025100106DE08004602026DF110" status="start"/>
+	</BodyUmidBasicChangeTable>
+	<BodyUmidWhenChangeTable>
+		<BodyUmidWhenChange frameCount="0" value="82452A0110010698" status="increment"/>
+		<BodyUmidWhenChange frameCount="119" value="42632A0110010698" status="end"/>
+	</BodyUmidWhenChangeTable>
+	<BodyUmidWhereChangeTable>
+		<BodyUmidWhereChange frameCount="0" value="000000000000000000000000" status="start"/>
+	</BodyUmidWhereChangeTable>
+	<BodyUmidWhoChangeTable>
+		<BodyUmidWhoChange frameCount="0" value="000000000000000000000000" status="start"/>
+	</BodyUmidWhoChangeTable>
+	<KlvPacketTable>
+		<KlvPacket key="060E2B34010101050301020A02000000" frameCount="0" lengthValue="095F5265635374617274" status="spot"/>
+	</KlvPacketTable>
+	<VideoFormat>
+		<VideoRecPort port="DIRECT"/>
+		<VideoFrame videoCodec="AVC_2048_1080_H422IP@L42" captureFps="24.00p" formatFps="24p"/>
+		<VideoLayout pixel="2048" numOfVerticalLine="1080" aspectRatio="256:135"/>
+	</VideoFormat>
+	<AudioFormat numOfChannel="8">
+		<AudioRecPort port="AES-EBU" audioCodec="LPCM24" trackDst="CH1"/>
+		<AudioRecPort port="AES-EBU" audioCodec="LPCM24" trackDst="CH2"/>
+		<AudioRecPort port="OTHERS" audioCodec="LPCM24" trackDst="CH3"/>
+		<AudioRecPort port="OTHERS" audioCodec="LPCM24" trackDst="CH4"/>
+		<AudioRecPort port="OTHERS" audioCodec="LPCM24" trackDst="CH5"/>
+		<AudioRecPort port="OTHERS" audioCodec="LPCM24" trackDst="CH6"/>
+		<AudioRecPort port="OTHERS" audioCodec="LPCM24" trackDst="CH7"/>
+		<AudioRecPort port="OTHERS" audioCodec="LPCM24" trackDst="CH8"/>
+	</AudioFormat>
+	<Device manufacturer="Sony" modelName="PMW-F55" serialNo="0520464">
+	</Device>
+	<RecordingMode type="normal" cacheRec="false"/>
+</NonRealTimeMeta>

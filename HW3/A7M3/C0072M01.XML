@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NonRealTimeMeta xmlns="urn:schemas-professionalDisc:nonRealTimeMeta:ver.2.00" xmlns:lib="urn:schemas-professionalDisc:lib:ver.2.00" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lastUpdate="2023-06-15T11:33:39+08:00">
+	<TargetMaterial umidRef="060A2B340101010501010D43130000006A9C507B100106CA747A90FFFE945831"/>
+	<Duration value="84"/>
+	<LtcChangeTable tcFps="24" halfStep="false">
+		<LtcChange frameCount="0" value="12353406" status="increment"/>
+		<LtcChange frameCount="83" value="23383406" status="end"/>
+	</LtcChangeTable>
+	<CreationDate value="2023-06-15T11:33:39+08:00"/>
+	<VideoFormat>
+		<VideoRecPort port="DIRECT"/>
+		<VideoFrame videoCodec="AVC_3840_2160_HP@L51" captureFps="23.98p" formatFps="23.98p"/>
+		<VideoLayout pixel="3840" numOfVerticalLine="2160" aspectRatio="16:9"/>
+	</VideoFormat>
+	<AudioFormat numOfChannel="2">
+		<AudioRecPort port="DIRECT" audioCodec="LPCM16" trackDst="CH1"/>
+		<AudioRecPort port="DIRECT" audioCodec="LPCM16" trackDst="CH2"/>
+	</AudioFormat>
+	<SubStream codec="AVC_Proxy_1280_720_MP@L4"/>
+	<Device manufacturer="Sony" modelName="ILCE-7M3" serialNo="4294967295"/>
+	<RecordingMode type="normal" cacheRec="false"/>
+	<AcquisitionRecord>
+		<Group name="CameraUnitMetadataSet">
+			<Item name="CaptureGammaEquation" value="s-log3-cine"/>
+			<Item name="CaptureColorPrimaries" value="s-gamut3-cine"/>
+			<Item name="CodingEquations" value="rec709"/>
+		</Group>
+	</AcquisitionRecord>
+</NonRealTimeMeta>
